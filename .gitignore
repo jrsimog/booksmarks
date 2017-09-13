@@ -6,6 +6,8 @@
 /logs/*
 /tmp/*
 /vendor/*
+.idea
+/.idea
 
 # OS generated files #
 ######################
@@ -32,3 +34,7 @@ Thumbs.db
 nbproject/* # NetBeans
 .vscode # Visual Studio Code
 .sass-cache/ # Sass preprocessor
+config/Seeds/
+logs/
+tmp/
+vendor/

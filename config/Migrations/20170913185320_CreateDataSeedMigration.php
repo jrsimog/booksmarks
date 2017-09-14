@@ -20,14 +20,14 @@ class CreateDataSeedMigration extends AbstractMigration
         $populator = new Faker\ORM\CakePHP\Populator($faker);
         $populator->addEntity('Users', 33,
             [
-                'first_nam' => function () use ($faker) {
+                'first_name' => function () use ($faker) {
                     return $faker->firstName();
                 },
                 'last_name' => function () use ($faker) {
                     return $faker->lastName();
                 },
                 'email' => function () use ($faker) {
-                    return $faker->safeEmail();
+                    return $faker->email();
                 },
                 'password' => function () {
                     $hasher = new DefaultPasswordHasher();

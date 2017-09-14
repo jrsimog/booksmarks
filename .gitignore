@@ -6,8 +6,7 @@
 /logs/*
 /tmp/*
 /vendor/*
-.idea
-/.idea
+
 
 # OS generated files #
 ######################
@@ -38,3 +37,6 @@ config/Seeds/
 logs/
 tmp/
 vendor/
+.idea/
+
+

@@ -4,6 +4,16 @@
   * @var \App\Model\Entity\User[]|\Cake\Collection\CollectionInterface $users
 
  un commit mas porque decidi editar codigo en ultimo minuto
+ *
+ * editar test
+ * editar test
+ * editar test
+ * editar test
+ * editar test
+ * editar test
+ * editar test
+ * editar test
+ * editar test
   */
 
 ?>

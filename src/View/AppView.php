@@ -38,6 +38,6 @@ class AppView extends View
      */
     public function initialize()
     {
-        $this->initializeUI(array('layaout' => false,));
+        $this->initializeUI(['layout' => false]);
     }
 }
